@@ -13,12 +13,15 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { LayoutModule } from '@angular/cdk/layout';
+import { DemoProjectsComponent } from './demo-projects/demo-projects.component';
+import {MatListModule} from '@angular/material/list';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
+    DemoProjectsComponent,
   ],
   imports: [
     BrowserModule,
@@ -30,6 +33,7 @@ import { LayoutModule } from '@angular/cdk/layout';
     MatIconModule,
     MatButtonModule,
     LayoutModule,
+    MatListModule,
 
   ],
   providers: [],
